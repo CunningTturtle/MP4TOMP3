@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EPOCH视频辅助工具" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlS-63-w7G">
+                                <rect key="frame" x="96.5" y="587" width="182.5" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©copyright epoch2018@yeah.net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3f-Rs-ksi">
+                                <rect key="frame" x="79" y="630" width="217.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fd68e198198d2f85bec6c56ef6f4ed88" translatesAutoresizingMaskIntoConstraints="NO" id="Las-kC-L0t">
+                                <rect key="frame" x="137.5" y="120" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="754-zg-qqD"/>
+                                    <constraint firstAttribute="width" secondItem="Las-kC-L0t" secondAttribute="height" id="XaH-3O-V9b"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p3f-Rs-ksi" secondAttribute="bottom" constant="20" id="H4x-QK-b8i"/>
+                            <constraint firstItem="Las-kC-L0t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Rhm-IS-9jo"/>
+                            <constraint firstItem="p3f-Rs-ksi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Sz3-l1-ixA"/>
+                            <constraint firstItem="p3f-Rs-ksi" firstAttribute="top" secondItem="nlS-63-w7G" secondAttribute="bottom" constant="20" id="jbc-iD-4AN"/>
+                            <constraint firstItem="nlS-63-w7G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jd2-Rw-KQe"/>
+                            <constraint firstItem="Las-kC-L0t" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xhx-7B-9xL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fd68e198198d2f85bec6c56ef6f4ed88" width="200" height="191"/>
+    </resources>
+</document>

@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "gonghongorzm@163.com"; ObjectID = "0O1-tA-m5X"; */
+"0O1-tA-m5X.text" = "gonghongorzm@163.com";
+
+/* Class = "UILabel"; text = "about us"; ObjectID = "0iC-JP-YRD"; */
+"0iC-JP-YRD.text" = "about us";
+
+/* Class = "UITextView"; text = "EpochMP4TOMP3 is a video processing tool for Epoch users, which facilitates Epoch users to use the "Epoch" process to process video problems, efficiently extract video covers and extract video sound files."; ObjectID = "5MZ-81-l98"; */
+"5MZ-81-l98.text" = "EpochMP4TOMP3 is a video processing tool for Epoch users, which facilitates Epoch users to use the Epoch process to process video problems, efficiently extract video covers and extract video sound files.";
+
+/* Class = "UILabel"; text = "Function Description"; ObjectID = "7cC-S0-Yrf"; */
+"7cC-S0-Yrf.text" = "Function Description";
+
+/* Class = "UILabel"; text = ">"; ObjectID = "FGV-cK-gSd"; */
+"FGV-cK-gSd.text" = ">";
+
+/* Class = "UILabel"; text = "current version"; ObjectID = "FxS-vK-Y5h"; */
+"FxS-vK-Y5h.text" = "current version";
+
+/* Class = "UIButton"; normalTitle = "Histy"; ObjectID = "H7J-tn-oWO"; */
+"H7J-tn-oWO.normalTitle" = "Histy";
+
+/* Class = "UILabel"; text = "Extract video sound"; ObjectID = "Hrk-ni-BAD"; */
+"Hrk-ni-BAD.text" = "Extract video sound";
+
+/* Class = "UILabel"; text = "Contact information"; ObjectID = "KGP-kb-VIE"; */
+"KGP-kb-VIE.text" = "Contact information";
+
+/* Class = "UILabel"; text = "分享"; ObjectID = "KfK-7b-7jN"; */
+"KfK-7b-7jN.text" = "Share";
+
+/* Class = "UIViewController"; title = "Video conversion"; ObjectID = "LNe-au-6LX"; */
+"LNe-au-6LX.title" = "Video conversion";
+
+/* Class = "UINavigationItem"; title = "Extract video cover"; ObjectID = "U4u-uv-qEr"; */
+"U4u-uv-qEr.title" = "Extract video cover";
+
+/* Class = "UINavigationItem"; title = "About us"; ObjectID = "UoG-eo-Cmn"; */
+"UoG-eo-Cmn.title" = "About us";
+
+/* Class = "UINavigationItem"; title = "Extract video sound"; ObjectID = "Xap-qQ-8p9"; */
+"Xap-qQ-8p9.title" = "Extract video sound";
+
+/* Class = "UILabel"; text = "©copyright epoch2018@yeah.net"; ObjectID = "YbG-L6-zvB"; */
+"YbG-L6-zvB.text" = "©copyright epoch2018@yeah.net";
+
+/* Class = "UILabel"; text = "Extract video cover"; ObjectID = "c6Z-O8-ldU"; */
+"c6Z-O8-ldU.text" = "Extract video cover";
+
+/* Class = "UINavigationItem"; title = "Video tool"; ObjectID = "uGA-fK-smq"; */
+"uGA-fK-smq.title" = "Video tool";
+
+/* Class = "UILabel"; text = "Copyright"; ObjectID = "yeO-3a-aRt"; */
+"yeO-3a-aRt.text" = "Copyright";
+
+/* Class = "UILabel"; text = "1.0.0"; ObjectID = "zzi-Ra-qRy"; */
+"zzi-Ra-qRy.text" = "1.0.0";

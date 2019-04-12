@@ -1,0 +1,27 @@
+platform:ios,'10.0'
+target 'MP4TOMP3' do
+
+#导航栏下出现的通知
+pod 'TSMessages'
+#完美适配iPhone X
+pod 'RTRootNavigationController'
+
+#全屏返回
+pod 'FDFullscreenPopGesture'
+
+
+pod 'YYKit'
+ pod 'SDWebImage'
+ 
+ pod 'MBProgressHUD'
+ 
+ 
+ #变色龙
+ pod 'ChameleonFramework'
+ 
+ pod 'NJKWebViewProgress'
+ pod 'Aspects'
+# pod 'XHLaunchAd',' ~>3.9.7'
+
+  pod 'AFNetworking'
+end

@@ -1,0 +1,57 @@
+//
+//  MP4TOMP3.pch
+//  MP4TOMP3
+//
+//  Created by iOS on 2019/3/20.
+//  Copyright © 2019 iOS. All rights reserved.
+//
+
+#ifndef MP4TOMP3_pch
+#define MP4TOMP3_pch
+
+//适配iphoneX
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+#define kTabBarHeight (kStatusBarHeight>20?83:49)
+#define kTopHeight (kStatusBarHeight + kNavBarHeight)
+#define KGestureSHomeHeight (kStatusBarHeight>20?34:0)
+#define KIS_IPhoneX kStatusBarHeight>20?YES:NO
+
+#define kRealValue(with) ((with)*(ScreenWidth/375.0f))
+
+//拼接字符串
+#define NSStringFormat(format,...) [NSString stringWithFormat:format,##__VA_ARGS__]
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define GKWYMUSIC_NETWORKCHANGENOTIFICATION     @"NetworkChangeNotification"   // 网络状态改变
+#define GKWYMUSIC_PLAYSTATECHANGENOTIFICATION   @"playStateChangeNotification" // 播放状态改变
+
+#define GKWYMUSIC_USERDEFAULTSKEY_NETWORKSTATE  @"networkState"     // 网络状态
+
+#import <TSMessages/TSMessage.h>
+//FDFullscreenPopGesture
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+//Navigation
+#import <RTRootNavigationController/RTRootNavigationController.h>
+#import <YYKit/YYKit.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <ChameleonFramework/Chameleon.h>
+
+#import "MyProductManager.h"
+
+
+
+#import "MBProgressHUD+EpochTip.h"
+
+//Launch
+
+#import "PPNetworkHelper.h"
+
+#import "AppManager.h"
+
+
+#endif /* MP4TOMP3_pch */
